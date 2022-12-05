@@ -34,9 +34,9 @@ function getTimeToNotLight(){
     if(hours >= 0 && hours < 9){
         newTime = 'Очікуваний час відключення 09:00'
     }else if (hours >= 11 && hours < 16){
-        newTime = 'Очікуваний час відключення - 15:00'
+        newTime = 'Очікуваний час відключення 15:00'
     }else if (hours >= 17 && hours < 22){
-        newTime = 'Очікуваний час відключення - 21:00'
+        newTime = 'Очікуваний час відключення 21:00'
     }
 
     return newTime
